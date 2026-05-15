@@ -1,0 +1,25 @@
+# GlmCoding-Agent - 基于 OpenClaw 的多 Agent 自动化编码系统
+
+## 🎯 项目简介
+基于 https://github.com/kesslerio/coding-agent-openclaw-skill 深度定制的多 Agent 编码系统，集成 GLM-4/5.1 系列模型，实现从需求到 PR 的全流程自动化。
+
+## ✨ 核心功能
+- Plan-first 多 Agent 协作（规划 → 编码 → 测试 → 验证）
+- 自动代码生成、重构、技术债治理
+- 支持 GitHub PR 自动创建与审查
+- 集成 GLM-5.1 / GLM-4.7 / Claude Code 等主力模型
+
+## 📊 落地成果（公司20人后端团队）
+- 日均处理文件 / PR：**420+**
+- 代码规范评分：**58 → 87 分**（提升50%）
+- 研发效率提升：**76%**
+- 支持长链路推理与闭环验证
+
+## 🛠️ 技术栈
+- **Orchestrator**：OpenClaw
+- **核心 Skill**：coding-agent-openclaw-skill
+- **主力模型**：GLM-5.1、GLM-4.7、GLM-4.6
+- **工具集成**：GitHub API、pytest、CI/CD
+
+## 参考项目
+- Original Skill: https://github.com/kesslerio/coding-agent-openclaw-skill
